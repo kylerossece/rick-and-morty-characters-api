@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/icon-rick-and-morty.png">
+    <title>Rick and Morty Characters</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <a href=""
+          ><img src="img/Rick_and_Morty.svg.png" id="nav__logo" alt="logo"
+        /></a>
+        <div class="nav__dropdown__search">
+          <ul class="nav__list">
+            <li class="nav__list-title">
+              <a href="#">SPECIES </a>
+              <ul class="nav__dropdown">
+                <li href="" class="nav__dropdown-item">Alien</li>
+                <li href="" class="nav__dropdown-item">Animal</li>
+                <li href="" class="nav__dropdown-item">Cronenberg</li>
+                <li href="" class="nav__dropdown-item">Disease</li>
+                <li href="" class="nav__dropdown-item">Human</li>
+                <li href="" class="nav__dropdown-item">Humanoid</li>
+                <li href="" class="nav__dropdown-item">Mythological Creature</li>
+                <li href="" class="nav__dropdown-item">Poopybutthole</li>
+                <li href="" class="nav__dropdown-item">Robot</li>
+                <li href="" class="nav__dropdown-item">Unknown</li>
+              </ul>
+            </li>
+          </ul>
+          <input
+            type="search"
+            id="nav__search-bar"
+            placeholder="Search character"
+          />
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="main__container">
+        <ul id="character-list"></ul>
+        <div class="main__buttons">
+          <button href="#" id="btn__show-more">Show more</button>
+          <button href="#" id="btn__show-less">Show less</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
